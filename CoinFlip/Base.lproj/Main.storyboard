@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CoinFlip" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u3T-pA-oEX">
+                                <rect key="frame" x="40" y="28" width="294" height="405"/>
+                            </imageView>
+                            <button opaque="NO" tag="-2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Mx-uz-S2X">
+                                <rect key="frame" x="66" y="581" width="243" height="36"/>
+                                <color key="backgroundColor" red="0.89019607840000003" green="0.72549019609999998" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Flip Coin"/>
+                                <connections>
+                                    <action selector="showCoinFlip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YuS-oJ-QLm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" relation="lessThanOrEqual" secondItem="3Mx-uz-S2X" secondAttribute="trailing" constant="50" id="6xv-lr-lYO"/>
+                            <constraint firstItem="u3T-pA-oEX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="NfD-sJ-Rrh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="u3T-pA-oEX" secondAttribute="trailing" constant="25" id="P6b-JN-DHE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="u3T-pA-oEX" secondAttribute="bottom" constant="234" id="Wkt-34-L6p"/>
+                            <constraint firstItem="u3T-pA-oEX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="awW-HQ-fXD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3Mx-uz-S2X" secondAttribute="bottom" constant="50" id="b3U-hj-Hzg"/>
+                            <constraint firstItem="3Mx-uz-S2X" firstAttribute="leading" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="rMf-nN-8Td"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="coinImageView" destination="u3T-pA-oEX" id="t6Q-Gv-5dG"/>
+                        <outlet property="flipCoinButton" destination="3Mx-uz-S2X" id="j1n-5m-rbS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
