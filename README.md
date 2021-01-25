@@ -32,12 +32,12 @@
 ## About The Project
 
 <span>
-  <img src="https://user-images.githubusercontent.com/26175544/72290456-2d5e0080-3645-11ea-87ae-3fece05171ce.gif" width="250" height="auto">
-  <img src="https://user-images.githubusercontent.com/26175544/72290070-5631c600-3644-11ea-95eb-2694d94fa388.png" width="250" height="auto">
+  <img src="https://user-images.githubusercontent.com/26175544/72290456-2d5e0080-3645-11ea-87ae-3fece05171ce.gif" width="350" height="auto">
+  <img src="https://user-images.githubusercontent.com/26175544/72290070-5631c600-3644-11ea-95eb-2694d94fa388.png" width="350" height="auto">
 </span>
 <span>
-  <img src="https://user-images.githubusercontent.com/26175544/72290100-6184f180-3644-11ea-9e94-1824d97f8567.png" width="250" height="auto">
-  <img src="https://user-images.githubusercontent.com/26175544/72290124-6ea1e080-3644-11ea-8e5a-e1ec6f2bf8ef.png" width="250" height="auto">
+  <img src="https://user-images.githubusercontent.com/26175544/72290100-6184f180-3644-11ea-9e94-1824d97f8567.png" width="350" height="auto">
+  <img src="https://user-images.githubusercontent.com/26175544/72290124-6ea1e080-3644-11ea-8e5a-e1ec6f2bf8ef.png" width="350" height="auto">
 </span>
 <br />
 Whilst learning Swift and iOS development, I decided to create an app that animates a coin flip revealing heads or tails as the result.
